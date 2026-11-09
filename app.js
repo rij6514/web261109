@@ -55,4 +55,9 @@ document.title = "내 영화" + movies.length + "편";
 console.table(sortByRating(movies));
 document.getElementById("out").textContent = "평균 " + average(movies).toFixed(1) + "점, 최고 " + best(movies).title;
 
-console.log()
+console.log(boxTop.audience.toLocaleString("ko-KR") + "명");
+
+// liveserver의 navigator.language 와 location.href
+// navigator.language : 'en-US' & location.href : 'http://127.0.0.1:5500/'
+// "rij6514.github.io/web261109"의 navigator.language 와 location.href
+// navigator.language : 'en-US' & location.href : 'https://rij6514.github.io/web261109/'

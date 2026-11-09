@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유인준 :: 내 영화 보드</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <header class="top">
+        <h1>내 영화 보드</h1>
+        <nav>
+            <ul>
+                <li><a href="#mine">보드</a></li>
+                <li><a href="#boxoffice">소개</a></li>
+                <li><a href="detail.html">상세</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>요즘 내가 고른 영화 다섯 편</h2>
+        <p>포스터 위에 마우스를 올려 보세요.</p>
+    </section>
+
+    <main>
+        <section id="mine">
+            <h2> 내 인생 영화 5편</h2>
+            <div class="board">
+                <article class="card">
+                    <img class="poster" src="https://image.tmdb.org/t/p/w342/mt6uZzy7DAsncHlGGzMsyNgLR6v.jpg"
+                        alt="스파이더맨: 브랜드 뉴 데이">
+                    <span class="badge">8.4</span>
+                    <div class="info">
+                        <h2>스파이더맨: 브랜드 뉴 데이</h2>
+                        <p class="year">2026</p>
+                        <p class="overview">친절한 이웃 스파이더맨으로서 뉴욕을 지키며 고독한 삶을 살아가던 피터는 어느 날, 예상치 못한 DNA 변이로 인해 통제 불가능한 힘에
+                            사로잡히고
+                            그의 진짜
+                            정체를 알고 있는 적까지 마주하게 된다.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img class="poster" src="https://image.tmdb.org/t/p/w342/fvqoI9r1GU2EFkc0xjZ6dKCuDVR.jpg"
+                        alt="스파이더맨: 노 웨이 홈">
+                    <span class="badge">7.9</span>
+                    <div class="info">
+                        <h2>스파이더맨: 노 웨이 홈</h2>
+                        <p class="year">2021</p>
+                        <p class="overview">미스테리오의 계략으로 세상에 정체가 탄로난 스파이더맨 피터 파커는 하루 아침에 평범한 일상을 잃게 된다. 문제를 해결하기 위해 닥터
+                            스트레인지를
+                            찾아가 도움을
+                            청하지만 뜻하지 않게 멀티버스가 열리면서 각기 다른 차원의 불청객들이 나타난다.</p>
+                    </div>
+                </article>
+                <!--수정해야 되는 부분-->
+                <article class="card">
+                    <img class="poster" src="https://image.tmdb.org/t/p/w342/3YewJtji80oIroeXUavNRZkeXfQ.jpg"
+                        alt="스파이더맨: 파 프롬 홈">
+                    <span class="badge">7.3</span>
+                    <div class="info">
+                        <h2>스파이더맨: 파 프롬 홈</h2>
+                        <p class="year">2019</p>
+                        <p class="overview">어벤져스 멤버들과 타노스와의 대접전을 마친 뒤, 지난 5년 동안 사라졌던 사람들이 동시에 돌아왔다. 아이언맨이 떠난 채 한동안 지구를
+                            구할 히어로가 공석인 상황을 수습할 히어로는 현재 스파이더맨 피터 파커뿐이다.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img class="poster" src="https://image.tmdb.org/t/p/w342/hjki9weYYVABvkpZbX5jBOmKXXv.jpg"
+                        alt="스파이더맨: 홈커밍">
+                    <span class="badge">7.3</span>
+                    <div class="info">
+                        <h2>스파이더맨: 홈커밍</h2>
+                        <p class="year">2017</p>
+                        <p class="overview">토니 스타크의 제안을 받고 시빌 워에 참여한 피터 파커는 다음 임무가 언제일지 설렘을 안고 하루하루를 보낸다. 토니는 MIT 진학 준비에
+                            전념할 것을 권하지만 친절한 이웃에 머무는 것은 피터의 성에 차지 않는다.</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img class="poster" src="https://image.tmdb.org/t/p/w342/eYaFLrKuEdzrGw6XG5ZTVciH28v.jpg"
+                        alt="어메이징 스파이더맨 2">
+                    <span class="badge">6.6</span>
+                    <div class="info">
+                        <h2>어메이징 스파이더맨 2</h2>
+                        <p class="year">2014</p>
+                        <p class="overview">스파이더맨의 삶에 완전히 적응한 피터 파커는 거미줄로 뉴욕을 활강하며 위험에 처한 시민들을 구해주고 사랑하는 연인 그웬과 데이트를 즐기며
+                            행복하게 살아간다. 그러던 어느 날, 스파이더맨의 열렬한 팬이자 오스코프사의 전기 엔지니어인 맥스는 작업 중 치명적인 사고로 자신에게 엄청난 능력이 생긴 것을
+                            발견한다.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="boxoffice">
+            <h2>일별 박스오피스 TOP 5</h2>
+            <p class="bases">KOBIS 기준일 2026-10-30</p>
+            <div class="board">
+                <article class="card">
+                    <img class="poster" src="https://image.tmdb.org/t/p/w342/5TMyytCI5Pfc9c1eNsljiCdiB05.jpg"
+                        alt="극장판 치이카와: 인어 섬의 비밀">
+                    <span class="rank">1</span>
+                    <span class="badge">7.6</span>
+                    <div class="info">
+                        <h3>극장판 치이카와: 인어 섬의 비밀</h3>
+                        <p class="year">개봉 2026-07-24</p>
+                        <p class="audience">누적 2,393,383명</p>
+                        <p class="change up">1</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img class="poster" src="https://image.tmdb.org/t/p/w342/zC4E522V1n3H4SGdYOaiqhF5DnS.jpg"
+                        alt="하트 오브 비스트">
+                    <span class="rank">2</span>
+                    <span class="badge">7.3</span>
+                    <div class="info">
+                        <h3>하트 오브 비스트</h3>
+                        <p class="year">개봉 2026-09-19</p>
+                        <p class="audience">누적 82,544명</p>
+                        <p class="change down">1</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img class="poster" src="https://image.tmdb.org/t/p/w342/ohrJjtvKciICoeH80z973JnBoHo.jpg"
+                        alt="수능, 출제의 비밀">
+                    <span class="rank">3</span>
+                    <span class="badge">7.0</span>
+                    <div class="info">
+                        <h3>수능, 출제의 비밀</h3>
+                        <p class="year">개봉 2026-10-28</p>
+                        <p class="audience">누적 39,511명</p>
+                        <p class="change">-</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img class="poster" src="https://image.tmdb.org/t/p/w342/c55ijsOdntj6P25vDwHLdgsBpmV.jpg"
+                        alt="암살자(들)">
+                    <span class="rank">4</span>
+                    <span class="badge">7.5</span>
+                    <div class="info">
+                        <h3>암살자(들)</h3>
+                        <p class="year">개봉 2026-09-23</p>
+                        <p class="audience">누적 3,416,350명</p>
+                        <p class="change">-</p>
+                    </div>
+                </article>
+                <article class="card">
+                    <img class="poster" src="https://image.tmdb.org/t/p/w342/ueigb5zra1tj6FTK9yhh2P33P9B.jpg"
+                        alt="타짜: 벨제붑의 노래">
+                    <span class="rank">5</span>
+                    <span class="badge">7.3</span>
+                    <div class="info">
+                        <h3>타짜: 벨제붑의 노래</h3>
+                        <p class="year">개봉 2026-09-23</p>
+                        <p class="audience">누적 2,035,989명</p>
+                        <p class="change">-</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> 이사이트는 TMDB API를 사용하지만 TMDB의 보증이나 인증을 받지 않았습니다.
+            This product uses the TMDB API but is not endorsed or certified by TMDB.
+        </p>
+        <p>
+            포스터와 영화 정보: TMDB (https://themoviedb.org)
+        </p>
+        <p>박스오피스 데이터: 영화진흥위원회 영화관입장권통합전산망(KOBIS), 기준일 2026-10-30</p>
+    </footer>
+</body>
+
+</html>

@@ -38,6 +38,48 @@
 const titles = ["스파이더맨: 브랜드 뉴 데이", "스파이더맨: 노 웨이 홈", "스파이더맨: 파 프롬 홈", "스파이더맨: 홈커밍", "어메이징 스파이더맨 2"];
 const ratings = [8.4, 7.9, 7.3, 7.3, 6.6];
 const years = [2026, 2021, 2019, 2017, 2014];
+
+// for(let index in titles) {
+//     console.log(index);
+// }
+
+// // 선언문으로 함수 정의하기
+// function gugudan(dan) {
+//     for(let i = 1; i < 10; i++) { 
+//         console.log(`${dan} x ${i} = ${dan * i}`);
+//     }
+// }
+
+// //표현식으로 함수 정의하기
+// const gugudan2 = function (dan) {
+//     for(let i = 1; i < 10; i++) { 
+//         console.log(`${dan} x ${i} = ${dan * i}`);
+//     }
+// }
+
+// //화살표 함수 사용법
+// const gugudan3 = (dan) => {
+//     for(let i = 1; i < 10; i++) { 
+//         console.log(`${dan} x ${i} = ${dan * i}`);
+//     } 
+// }
+
+// // 화살표 함수 반환값
+// const add = (num1, num2) => num1 + num2;
+
+// function add1(num1, num2) {
+//     return num1 + num2;
+// }
+
+// gugudan(4);
+// console.log(add(1234,5678));
+
+// 즉시 실행 함수 만들기
+// (function init() {
+//     console.log("나는 함수다. 실행이 되었다");
+// })();
+
+
 let sum = 0;
 for (let i = 0; i < ratings.length; i++) {
  sum = sum + ratings[i];

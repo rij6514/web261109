@@ -34,7 +34,7 @@ console.log("8점 이상:", filterByRating(movies, 8).length + "편");
 
 //영화 배열 ⇒ 평점 높은 순으로 정렬한 새 배열(원본은 그대로)
 const sortByRating = (list) => {
-    return [...list].sort((a,b) => b.rating - a.rating);
+    return [...list].sort((a, b) => b.rating - a.rating);
 }
 const sorted = sortByRating(movies);
 console.log("정렬 1위:", sorted[0].title, "/ 원본 1번:", movies[0].title);

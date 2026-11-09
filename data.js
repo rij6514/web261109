@@ -24,7 +24,7 @@ const movies = [
     }
 ];
 
-const boxTop ={
+const boxTop = {
     title: "극장판 치이카와: 인어 섬의 비밀",
     audience: 2393383
 }
